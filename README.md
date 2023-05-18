@@ -30,7 +30,7 @@ a list route has been included to see how the data can be parsed and rendered dy
 
 ![diagram of the dynamic rendering model](./docs/diagram.png)
 
-The main table here is the segment_types. Each table revolves around that. WHen you load 
+The main table here is the segment_types. Each table revolves around that. It is linked to form_fields and segments.  
 
 form fields are stored in a form_field table. they are linked to a segment_type. 
 
