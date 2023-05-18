@@ -3,7 +3,7 @@ include '../connect.php';
 
 class SegmentController {
 
-    public static function editForm(){
+    public static function newForm(){
         global $db;
 
         $segment_type_id=$_GET['segment_type_id'];

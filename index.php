@@ -17,7 +17,7 @@ $path = $parsedUrl['path'];
 $route = rtrim($path, '/');
 
 switch ($route) {
-    case '/segments/edit': SegmentController::editForm(); break;
+    case '/segments/new': SegmentController::newForm(); break;
     case '/segments/submit': SegmentController::submit(); break;
     case '/segments/list': SegmentController::list(); break;
 }
